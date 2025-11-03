@@ -68,7 +68,7 @@ int main(){
             buffer[offset] = '\0';
             puts(buffer);
             free(buffer);
-            //might want to put a short sleep here on linux since stdout is much faster than on windows
+            //might want to put a short sleep here for linux since stdout is much faster than on windows
         }
     }
     printf("\n");
